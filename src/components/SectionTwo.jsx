@@ -3,7 +3,7 @@ const SectionTwo = () => {
     <div className="bg-black p-6 h-[100vh] flex items-center gap-16">
       <div className="w-1/3 h-[60vh]">
         <img
-          src="/src/assets/hero/profile.jpg"
+          src={`${import.meta.env.BASE_URL}/hero/profile.jpg`}
           alt="profile"
         />
       </div>

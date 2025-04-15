@@ -1,7 +1,11 @@
 const SectionSeven = () => {
   return (
     <div className="bg-black h-[100vh] flex items-center gap-16 relative">
-      <img className="w-full h-full" src="/src/assets/hero/rattlesong.jpg" alt="ant" />
+      <img
+        className="w-full h-full"
+        src={`${import.meta.env.BASE_URL}/img/rattlesong.jpg`}
+        alt="rattlesong"
+      />
       <div className="absolute bottom-40 right-20 text-right">
         <h4>RATTLESONG</h4>
         <p>

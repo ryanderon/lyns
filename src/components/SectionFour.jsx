@@ -4,8 +4,8 @@ const SectionFour = () => {
       <div className="bg-black h-150 flex items-center overflow-hidden">
         <div className="w-1/3 h-full">
           <img
+            src={`${import.meta.env.BASE_URL}/img/scenes_of_life.jpg`}
             className="object-cover h-[70%] w-full"
-            src="/src/assets/hero/scenes_of_life.jpg"
             alt="hero 2"
           />
           <div className="p-4">
@@ -17,8 +17,8 @@ const SectionFour = () => {
         </div>
         <div className="w-1/3 h-full">
           <img
+            src={`${import.meta.env.BASE_URL}/img/mooncake.jpg`}
             className="object-cover h-[70%] w-full"
-            src="/src/assets/hero/mooncake.jpg"
             alt="hero 2"
           />
           <div className="p-4">
@@ -30,8 +30,8 @@ const SectionFour = () => {
         </div>
         <div className="w-1/3 h-full">
           <img
+            src={`${import.meta.env.BASE_URL}/img/monochrome.jpg`}
             className="object-cover h-[70%] w-full"
-            src="/src/assets/img/monochrome.jpg"
             alt="hero 2"
           />
           <div className="p-4">

@@ -1,7 +1,11 @@
 const SectionSix = () => {
   return (
     <div className="bg-black h-[100vh] flex items-center gap-16 relative">
-      <img className="w-full h-full" src="/src/assets/hero/ant.jpg" alt="ant" />
+      <img
+        className="w-full h-full"
+        src={`${import.meta.env.BASE_URL}/img/ant.jpg`}
+        alt="ant"
+      />
       <div className="absolute bottom-40 left-20 text-left w-100">
         <h4>SEDIMENT</h4>
         <p>

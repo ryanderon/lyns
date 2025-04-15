@@ -3,7 +3,7 @@ const SectionOne = () => {
     <div className="relative h-[100vh]">
       <div className="inset-0 z-0 w-full h-full">
         <img
-          src="/src/assets/hero/hero-1.jpg"
+          src={`${import.meta.env.BASE_URL}/hero/hero-1.jpg`}
           alt="Background"
           className="w-full h-full object-cover blur-md brightness-75"
         />
